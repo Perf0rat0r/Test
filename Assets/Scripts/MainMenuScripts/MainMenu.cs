@@ -89,7 +89,14 @@ public class MainMenu : MonoBehaviour
    public void GetDiscordUrl()
    {
       Application.OpenURL("https://discord.gg/r6qE7f7");
-   
+   }
+   public void GetYoutubeChannelUrl()
+   {
+      Application.OpenURL("https://www.youtube.com/channel/UCZPg-voNX3aKB9hXMhiy-9A/");
+   }
+   public void GetPatreonUrl()
+   {
+      Application.OpenURL("https://www.patreon.com/user?u=45242584");
    }
    public void PlayEpisode1()
    {
